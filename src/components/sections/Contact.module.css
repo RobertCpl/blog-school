@@ -1,0 +1,152 @@
+.wraper {
+   max-width: 1920px;
+   margin: 0 auto;
+   background-color: #fcfaf7;
+   padding: 96px 0;
+}
+.content {
+   max-width: 1392px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-wrap: wrap;
+}
+.photo {
+   min-width: 280px;
+   text-align: center;
+   margin-bottom: 48px;
+}
+.contact {
+   color: #262626;
+   width: 20%;
+   min-width: 230px;
+   margin-bottom: 48px;
+}
+.contact_title {
+   font-size: 18px;
+   font-weight: 700;
+   margin-bottom: 25px;
+}
+
+.phone {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   margin-bottom: 9px;
+}
+.phone_number {
+   font-size: 24px;
+   font-weight: 600;
+   margin-left: 1rem;
+}
+.days {
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 24px;
+   margin-bottom: 11px;
+}
+.days span {
+   display: block;
+}
+.comments {
+   font-size: 12px;
+   margin-bottom: 11px;
+}
+.email {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+.email_address {
+   color: #262626;
+   font-size: 20px;
+   font-weight: 600;
+   margin-left: 12px;
+   text-decoration: none;
+}
+.secretariat {
+   width: 20%;
+   min-width: 230px;
+}
+.secretariat_title {
+   font-size: 18px;
+   font-weight: 700;
+   margin-bottom: 25px;
+}
+
+.social {
+   width: 20%;
+}
+.social_title {
+   font-size: 18px;
+   font-weight: 700;
+   margin-bottom: 25px;
+}
+.social_one {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+}
+.social_two {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+@media (max-width: 1440px) {
+   .wraper {
+      padding: 96px 12px;
+   }
+}
+@media (max-width: 1024px) {
+   .content {
+      justify-content: space-around;
+      align-items: center;
+   }
+   .photo {
+      width: 45%;
+   }
+   .contact {
+      width: 45%;
+   }
+   .secretariat {
+      width: 45%;
+   }
+   .social {
+      width: 45%;
+   }
+}
+@media (max-width: 768px) {
+   .content {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+   }
+   .photo {
+      width: 100%;
+   }
+   .contact {
+      width: 100%;
+   }
+   .phone {
+      justify-content: center;
+   }
+   .email {
+      justify-content: center;
+   }
+   .secretariat {
+      width: 100%;
+   }
+   .social {
+      width: 40%;
+   }
+}
+
+@media (max-width: 425px) {
+   .social {
+      width: 60%;
+   }
+}

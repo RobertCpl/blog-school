@@ -1,0 +1,49 @@
+.wraper {
+   max-width: 1920px;
+   background-color: #f9f5f3;
+   padding: 16px 24px;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   font-size: 1rem;
+   font-weight: 700;
+}
+.left {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.menu {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 48px;
+}
+.menu li {
+   margin-left: 1rem;
+   cursor: pointer;
+}
+.menu li:last-child {
+   color: #cd155c;
+   transform: rotate(10deg) translateY(-10px);
+
+   position: relative;
+}
+.arrow {
+   position: absolute;
+   bottom: -20px;
+   left: 0;
+}
+/* .clip {
+   margin-top: -10px;
+   background-color: #f9f5f3;
+
+   height: 100px;
+   width: 100%;
+
+   
+   clip-path: polygon(0 0, 100% 0, 100% 97%, 95% 87%, 85% 100%, 75% 90%, 55% 100%, 35% 90%, 25% 100%, 10% 85%, 0 98%);
+} */
