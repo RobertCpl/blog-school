@@ -4,6 +4,7 @@ import Navigation from "./Navigation";
 import style from "./Layout.module.css";
 import Newsletter from "../sections/Newsletter";
 import Contact from "../sections/Contact";
+import Footer from "../sections/Footer";
 
 export const sen = Sen({
    weight: "400",
@@ -21,6 +22,7 @@ function Layout(props) {
          <main>{props.children}</main>
          <Newsletter />
          <Contact />
+         <Footer />
       </div>
    );
 }

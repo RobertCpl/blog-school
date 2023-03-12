@@ -15,13 +15,13 @@ function Contact() {
       <div className={style.wraper}>
          <div className={style.content}>
             <div className={style.photo}>
-               <Image src={photo} />
+               <Image src={photo} alt={"support"} />
             </div>
             <div className={style.contact}>
                <p className={style.contact_title}>Kontakt</p>
                <div className={style.phone}>
                   <div className={style.phone_icon}>
-                     <Image src={phone_icon} />
+                     <Image src={phone_icon} alt={"phone"} />
                   </div>
                   <div className={`${style.phone_number} ${recoleta.className}`}>(+48) 723 112 211</div>
                </div>
@@ -34,7 +34,7 @@ function Contact() {
                </p>
                <div className={style.email}>
                   <div className={style.email_icon}>
-                     <Image src={email_icon} />
+                     <Image src={email_icon} alt={"email"} />
                   </div>
                   <a href="mailto: hejka@szkolawchmurze.org" className={style.email_address}>
                      hejka@szkolawchmurze.org
@@ -55,24 +55,24 @@ function Contact() {
                <p className={style.social_title}>Nasze social media</p>
                <div className={style.social_one}>
                   <div className="twiter">
-                     <Image src={twitter} />
+                     <Image src={twitter} alt={"twitter"} />
                   </div>
                   <div className="youtube">
-                     <Image src={youtube} />
+                     <Image src={youtube} alt={"youtube"} />
                   </div>
                   <div className="linkedIn">
-                     <Image src={linkedin} />
+                     <Image src={linkedin} alt={"linkedin"} />
                   </div>
                </div>
                <div className={style.social_two}>
                   <div className="tiktok">
-                     <Image src={tiktok} />
+                     <Image src={tiktok} alt={"tiktok"} />
                   </div>
                   <div className="instagram">
-                     <Image src={instagram} />
+                     <Image src={instagram} alt={"instagram"} />
                   </div>
                   <div className="facebook">
-                     <Image src={facebook} />
+                     <Image src={facebook} alt={"facebook"} />
                   </div>
                </div>
             </div>

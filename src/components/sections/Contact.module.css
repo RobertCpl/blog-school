@@ -1,8 +1,29 @@
 .wraper {
+   position: relative;
+   z-index: -1;
    max-width: 1920px;
-   margin: 0 auto;
+   margin: -20px auto;
    background-color: #fcfaf7;
    padding: 96px 0;
+   clip-path: polygon(
+      0 0,
+      100% 0,
+      100% 98%,
+      95% 97%,
+      85% 100%,
+      75% 98%,
+      77% 100%,
+      65% 98%,
+      60% 100%,
+      55% 98%,
+      58% 100%,
+      40% 98%,
+      42% 99%,
+      35% 100%,
+      25% 98%,
+      10% 98%,
+      0 100%
+   );
 }
 .content {
    max-width: 1392px;
@@ -10,7 +31,6 @@
    display: flex;
    justify-content: space-between;
    align-items: flex-start;
-   flex-wrap: wrap;
 }
 .photo {
    min-width: 280px;
@@ -104,6 +124,7 @@
    .content {
       justify-content: space-around;
       align-items: center;
+      flex-wrap: wrap;
    }
    .photo {
       width: 45%;
@@ -148,5 +169,10 @@
 @media (max-width: 425px) {
    .social {
       width: 60%;
+   }
+}
+@media (max-width: 768px) {
+   .content {
+      flex-direction: column;
    }
 }
