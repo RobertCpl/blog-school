@@ -1,7 +1,8 @@
 import style from "./Newsletter.module.css";
 import { recoleta, sen } from "../layout/Layout";
 import Image from "next/image";
-import star from "../../assets/images/starCloud.svg";
+import Star from "../ui/Star";
+
 function Newsletter() {
    return (
       <>
@@ -33,15 +34,8 @@ function Newsletter() {
                   Dołącz do newslettera
                </button>
             </div>
-            <div className={style.star}>
-               <Image
-                  src={star}
-                  alt="cloud star"
-                  priority
-                  fill
-                  sizes="(max-width: 1440px) 400px, (max-width: 1024px) 300px, (max-width: 768px) 0px"
-               />
-            </div>
+            <Star />
+
             <div className={style.circle}></div>
          </div>
       </>

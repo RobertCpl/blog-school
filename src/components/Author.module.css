@@ -1,0 +1,24 @@
+.wraper {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   color: white;
+   font-size: 12px;
+   margin-bottom: 13px;
+}
+.photo {
+   width: 24px;
+   height: 24px;
+   position: relative;
+}
+.name {
+   font-size: 12px;
+   font-weight: 400;
+   margin-left: 8px;
+}
+.dot {
+   margin-left: 8px;
+}
+.date {
+   margin-left: 8px;
+}

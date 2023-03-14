@@ -1,0 +1,22 @@
+.star {
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+
+/* @media (max-width: 1440px) {
+   .star {
+      width: 400px;
+   }
+}
+@media (max-width: 1024px) {
+   .star {
+      width: 300px;
+   }
+}
+
+@media (max-width: 768px) {
+   .star {
+      display: none;
+   }
+} */

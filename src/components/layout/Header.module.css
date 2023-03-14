@@ -2,15 +2,18 @@
    max-width: 1920px;
    margin: 0 auto;
    background: #f9f5f3;
+   overflow: hidden;
 }
 .content {
-   width: 1392px;
+   max-width: 1392px;
    margin: 0 auto;
+   padding: 48px 0;
 }
 .top_bar {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   margin-bottom: 48px;
 }
 .title {
    font-size: 48px;
@@ -51,4 +54,68 @@
 }
 .category_icon {
    margin-left: 0.5rem;
+}
+.new_posts {
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+   align-items: stretch;
+}
+.slider {
+   width: 900px;
+   border-radius: 8px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   overflow: hidden;
+
+   position: relative;
+}
+.arrow_left {
+   width: 44px;
+   height: 44px;
+   border-radius: 50%;
+   background: #f9f5f3;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 50%;
+   left: 1rem;
+   transform: translateY(-50%);
+}
+.arrow_right {
+   width: 44px;
+   height: 44px;
+   border-radius: 50%;
+   background: #f9f5f3;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 50%;
+   right: 1rem;
+   transform: translateY(-50%);
+}
+.mini_slides {
+   width: 30%;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+.mini_slide {
+   width: 100%;
+   border-radius: 8px;
+   overflow: hidden;
+}
+.star_container {
+   width: 174px;
+   height: 174px;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   transform: translate(60%, 20%);
+   z-index: 0;
 }

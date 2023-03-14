@@ -1,0 +1,23 @@
+.wraper {
+   max-width: 1920px;
+   margin: 0 auto;
+   padding: 98px 0;
+}
+.content {
+   max-width: 1392px;
+   margin: 0 auto;
+}
+.title {
+   font-size: 40px;
+   font-weight: 500;
+   position: relative;
+   margin-bottom: 64px;
+}
+.decor {
+   width: 160px;
+   height: 18px;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   z-index: -1;
+}

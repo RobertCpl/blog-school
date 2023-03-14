@@ -1,0 +1,28 @@
+.wraper {
+   width: 432px;
+   margin-right: 1rem;
+}
+.photo {
+   width: 432px;
+   height: 245px;
+   border-radius: 8px;
+   overflow: hidden;
+   position: relative;
+}
+.image {
+   object-fit: cover;
+}
+.content {
+   padding: 24px;
+}
+.mini_button {
+   margin-bottom: 1rem;
+}
+.title {
+   font-size: 22px;
+   font-weight: 600;
+   margin-bottom: 1rem;
+}
+.text {
+   margin-bottom: 53px;
+}
